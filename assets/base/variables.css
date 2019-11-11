@@ -1,0 +1,6 @@
+:root{
+    --nav-items-dark: rgb(25, 28, 31);
+    --nav-items-light:rgb(161, 166, 171);
+    --highlight-color: rgb(235, 0, 141);
+    --shadow-glob: rgba(0, 0, 0, 0.04) 0px 0px 4px 0px, rgba(0, 0, 0, 0.08) 0px 8px 16px 0px;
+}

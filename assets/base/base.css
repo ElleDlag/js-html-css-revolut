@@ -1,0 +1,23 @@
+/* #region  BASE */
+* {
+    margin: 0;
+    padding: 0
+}
+
+html,body {
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none
+}
+
+ul,
+li {
+    list-style-type: none
+}
+
+/* #endregion */

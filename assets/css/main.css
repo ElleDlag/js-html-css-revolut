@@ -1,0 +1,68 @@
+
+/* NAVIGTAION */
+/* logo */
+.nav-wrapper,
+main{
+    max-width: 137.6rem;
+    padding: 0 4.8rem;
+    margin: auto;
+}
+.nav-wrapper{
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
+nav div.logo{
+    display: flex;
+     font-size: 2rem;
+     color: rgb(255, 255, 255);
+     justify-content: normal;
+     height: 4.4rem;
+     width: 10.4rem;
+     margin: 0px 0px 0.5rem;
+     align-items: center;
+ }
+ /* graphic class */
+ .logoSvg{
+     fill: url(#linearGradient);
+     margin-bottom:4px
+ }
+/* navbar items */
+.navbar{
+    padding:0;
+}
+.nav-arguments li{
+    position: relative;
+}
+
+
+
+
+
+
+
+main section{
+    height:30rem;
+    width:100%;
+    border:1px solid blue;
+}
+
+
+
+/* custom responsive for toggle */
+
+@media (min-width: 1081px){
+    .navbar-expand-rvl {
+        flex-direction: row;
+        
+        justify-content: flex-start;
+    }
+    .navbar-expand-rvl .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-rvl .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-rvl .navbar-toggler {
+        display: none;
+    }
+}

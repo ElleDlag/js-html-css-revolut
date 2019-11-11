@@ -1,0 +1,25 @@
+/* #region margin rl 24px  */
+.ml_24 {
+    margin-left: 2.4rem;
+}
+.mr_24 {
+    margin-right: 2.4rem;
+}
+.mx_24 {
+    margin-left: 2.4rem;
+    margin-right: 2.4rem;
+}
+/* #endregion */
+
+/* #region  margin rl 32px */
+.mr_32 {
+    margin-right: 3.2rem;
+}
+.ml_32 {
+    margin-left: 3.2rem;
+}
+.mx_32 {
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+}
+/* #endregion */

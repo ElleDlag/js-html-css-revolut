@@ -1,0 +1,38 @@
+a{
+    font-size: 1.6rem;
+}
+.navbar a,
+.navbar-expand-rvl .navbar-nav .nav-link{
+    font-weight:100;
+    color: var(--nav-items-light);
+    transition: color 0.1s ease 0s;
+    padding: 0;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar a:hover{
+    color:var(--nav-items-dark);
+}
+
+h1{
+    font-family: "Futura New Book", Futura, Avenir, sans-serif;
+    font-weight: 200;
+    line-height: 1.25;
+    font-size: 6.4rem;
+    margin: 0px;
+}
+.navbar-expand-rvl .drdown-item>a.nav-link{
+    padding:1.6rem 3.2rem;
+    white-space: nowrap;
+}
+
+.nav-sup{
+    position: relative;
+    font-size: 1.2rem;
+    color: var(--highlight-color);
+    bottom: 1rem;
+    line-height: normal;
+    font-weight: 600;
+    margin-right: -0.4rem;
+    display: inline-block;
+    top: -1em;
+}
